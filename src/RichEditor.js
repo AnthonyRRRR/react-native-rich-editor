@@ -265,7 +265,7 @@ export default class RichTextEditor extends Component {
                     useWebKit={true}
                     scrollEnabled={false}
                     hideKeyboardAccessoryView={true}
-                    keyboardDisplayRequiresUserAction={false}
+                    // keyboardDisplayRequiresUserAction={false}
                     nestedScrollEnabled={!useContainer}
                     style={[styles.webview, style]}
                     {...rest}
